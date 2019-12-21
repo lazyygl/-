@@ -1,0 +1,73 @@
+<!--button-->
+
+<view class="btn" bindtap="powerDrawer" data-statu="open" hover-class="btn_hover" >添加设备</view> 
+
+  
+
+<!--mask-->
+
+<view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view> 
+
+<!--content-->
+
+<!--使用animation属性指定需要执行的动画-->
+
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}"> 
+
+  
+
+ <!--drawer content-->
+
+ <view class="drawer_title"></view> <text class="title0">新设备</text>
+
+ <view class="drawer_content"> 
+
+  <view class="top grid"> 
+
+   <label class="title col-0">名称</label> 
+
+   <input class="input_base input_h30 col-1" name="rName"  bindinput="input1" value="{{inputValue1}}"></input> 
+
+  </view> 
+
+  <view class="top grid"> 
+
+   <label class="title col-0">地址</label> 
+
+   <input class="input_base input_h30 col-1" name="mobile"  bindinput="input2"  value="{{inputValue2}}"></input> 
+
+  </view> 
+  <view class="top grid"> 
+
+   <label class="title col-0">设备ID</label> 
+
+   <input type="number" class="input_base input_h30 col-1" name="mobile"  bindinput="input3"  value="{{inputValue3}}"></input> 
+
+  </view> 
+  <view class="top grid"> 
+
+   <label class="title col-0">APIkey</label> 
+
+   <input password type="text" class="input_base input_h30 col-1" name="mobile"  bindinput="input4"  value="{{inputValue4}}"></input> 
+
+  </view> 
+ <view class="choice">
+ <view class="btn_ok" bindtap="yes" data-statu="close" formType="submit">确定</view> 
+ <view class="btn_no" bindtap="no" data-statu="close">取消</view> 
+</view>
+</view>
+</view>
+<view wx:if="{{start}}">
+<view wx:for="{{lists}}" wx:key="this" style="padding: 10px 0;border-bottom: 1px solid #ddd;">
+<navigator bindtap="chart" url="../3/3" id="{{index}}">
+<view >
+    {{index+1}}.<text class="name">名称：</text>{{item.name1}}
+    </view>
+    <view>
+    <text class="address">  地址：</text>{{item.name2}}
+    </view>
+    </navigator>
+</view>
+</view>
+
+ 

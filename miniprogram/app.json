@@ -1,0 +1,49 @@
+{
+  "pages": [
+   
+    "pages/denglu/denglu",
+    "pages/im/room/im2",
+    "pages/index/index",
+    "pages/deployFunctions/deployFunctions",
+    "pages/openapi/openapi",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/manager/manager",
+    "pages/m1/m1",
+    "pages/m2/m2",
+    "pages/im2/im2",
+    "pages/student/student"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "不苟研笑",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#FFE4E1",
+    "selectedColor": "#FF69B4",
+    "list": [
+      {
+        "pagePath": "pages/m1/m1",
+        "text": "设备",
+        "iconPath": "/images/eqip.png",
+        "selectedIconPath": "/images/eqip2.png"
+      },
+      {
+        "pagePath": "pages/im2/im2",
+        "text": "消息",
+        "iconPath": "/images/message.png",
+        "selectedIconPath": "/images/message2.png"
+      },
+      {
+        "pagePath": "pages/manager/manager",
+        "text": "我的",
+        "iconPath": "/images/mine11.png",
+        "selectedIconPath": "/images/mine12.png"
+      }
+    ]
+  }
+}

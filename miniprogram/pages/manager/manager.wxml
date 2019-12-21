@@ -1,0 +1,6 @@
+<text class="responce">对本应用的反馈与意见</text>
+<input auto-focus placeholder-class="input" placeholder="将会获取焦点" placeholder="感谢您的反馈,我们会尽快处理" class="input1" bindinput="input" value="{{value}}"></input>
+
+<button class="tijiao" type="text" placeholder-style="color:rgba(243, 163, 109, 0.616)" plain="{{plain}}" style=" background-color: pink;" bindtap="popSuccess">提交</button>
+
+

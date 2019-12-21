@@ -1,0 +1,6 @@
+<!-- 即时通信 -->
+  <view class="uploader">
+    <navigator url="../im/im" open-type="navigate" class="uploader-text">
+      <text>我要举报</text>
+    </navigator>
+  </view>

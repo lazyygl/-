@@ -1,0 +1,9 @@
+<view >
+    <text class="name">名称：</text>{{name1}}
+    </view>
+    <view>
+    <text class="address">地址：</text>{{name2}}
+    </view>
+    <text class="chart">下为研讨间内声音实时图像</text>
+<canvas class = "canvas" id="chart1"
+canvas-id="MIC"></canvas>

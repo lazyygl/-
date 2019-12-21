@@ -1,0 +1,13 @@
+<view class="container">
+  
+  <view class="guide">
+    <text class="headline">联系管理员举报</text>
+    
+    </view>
+    </view>
+
+  <view class="uploader">
+    <navigator url="./room/room" open-type="navigate" class="uploader-text">
+      <text>举报</text>
+    </navigator>
+  </view>

@@ -1,0 +1,15 @@
+<view class="container">
+  
+  <view class="guide">
+    <text class="headline">小朋友们的举报吖</text>
+    
+    </view>
+    </view>
+
+  <view class="uploader">
+  <button class="button">
+    <navigator url="../im/room/room" open-type="navigate" class="uploader-text">
+      <text>查看详情</text>
+    </navigator>
+    </button>
+  </view>

@@ -1,0 +1,143 @@
+/*button*/
+.btn { 
+ width: 80%; 
+ padding: 20rpx 0; 
+ border-radius: 10rpx; 
+ align-items: right;
+ text-align: center; 
+ margin: 40rpx 10%; 
+ background:#FF69B4; 
+ color: #fff; 
+}
+.btn_hover{
+  background-color:#E8E8EA; 
+} 
+  
+/*mask*/
+.drawer_screen { 
+ width: 100%; 
+ height: 100%; 
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ z-index: 1000; 
+ background: #000; 
+ opacity: 0.5; 
+ overflow: hidden; 
+} 
+  
+/*content*/
+.drawer_box { 
+ width: 650rpx; 
+ overflow: hidden; 
+ position: fixed; 
+ top: 50%; 
+ left: 0; 
+ z-index: 1001; 
+ background: #FAFAFA; 
+ margin: -150px 50rpx 0 50rpx; 
+ border-radius: 3px; 
+} 
+  .title0{
+    size: 100px;
+    color:#FF69B4;
+    text-align: center;
+ justify-content: center;
+ flex-direction: column;
+  }
+.drawer_title{ 
+ padding:15px; 
+ font: 20px "microsoft yahei"; 
+ text-align: center;
+ justify-content: center;
+ flex-direction: column;
+} 
+.drawer_content { 
+ height: 210px; 
+ overflow-y: scroll; /*超出父盒子高度可滚动*/
+} 
+  
+.btn_ok{ 
+ padding: 20px; 
+ font: 15px "microsoft yahei"; 
+ text-align: center; 
+ border-top: 1px solid #E8E8EA; 
+ color: #FF69B4; 
+ margin-left: 76px;
+} 
+  .btn_no{ 
+ padding: 20px; 
+ font: 15px "microsoft yahei"; 
+ text-align: center; 
+ border-top: 1px solid #E8E8EA; 
+ color: #FF69B4; 
+ margin-right: 50px;
+} 
+.top{ 
+  padding-top:8px; 
+} 
+.bottom { 
+  padding-bottom:8px; 
+} 
+.title { 
+  height: 30px; 
+  line-height: 30px; 
+  width: 160rpx; 
+  text-align: center; 
+  display: inline-block; 
+  font: 300 28rpx/30px "microsoft yahei"; 
+} 
+  
+.input_base { 
+  border: 2rpx solid #ccc; 
+  padding-left: 10rpx; 
+  margin-right: 50rpx; 
+} 
+.input_h30{ 
+  height: 30px; 
+  line-height: 30px; 
+} 
+.input_h60{ 
+  height: 60px; 
+} 
+.input_view{ 
+  font: 12px "microsoft yahei"; 
+  background: #fff; 
+  color:#FF69B4; 
+  line-height: 30px; 
+} 
+  
+input { 
+  font: 12px "microsoft yahei"; 
+  background: #ffffff; 
+  color:#000 ; 
+} 
+radio{ 
+  margin-right: 20px; 
+} 
+.grid { display: -webkit-box; display: box; } 
+.col-0 {-webkit-box-flex:0;box-flex:0;} 
+.col-1 {-webkit-box-flex:1;box-flex:1;} 
+.fl { float: left;} 
+.fr { float: right;}
+.choice{
+  display: flex;
+}
+.address{
+  margin-left: 14px;
+  margin-top: 10px;
+  font-size: 38rpx;
+  color: #FF69B4;
+}
+.name{
+  font-size: 38rpx;
+  color: rgba(255, 105, 180, 0.541);
+}
+Page{
+  background-color:#FFE4E1;
+}
+.btn{
+color:rgb(32, 25, 26);
+font-family: "宋体";
+
+}

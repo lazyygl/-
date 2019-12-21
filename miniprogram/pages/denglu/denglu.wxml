@@ -1,0 +1,11 @@
+<image class="bg" src="../../images/tubiao.jpg" mode="widthFix"></image>
+<text class="infor1">一卡通号或教职工号:</text>
+<input type="number" maxlength="10" auto-focus placeholder="将会获取焦点" placeholder="请输入您的卡号" class="input1" bindinput="input11" value="{{inputValue1}}"></input>
+<text class="code">密码:</text>
+<input password type="text" placeholder="请输入您的密码" class="input2" bindinput="input22" value="{{inputValue2}}"></input>
+<text class="code">登录:</text>
+<button placeholder-style="color:#F76260" plain="{{plain}}" class="button" style=" background-color: pink;" bindtap="manage" >我是管理者</button>
+<button placeholder-style="color:#F76260" plain="{{plain}}" class="button" style=" background-color: yellow;" bindtap="student">我是举报者</button>
+<view class="container">
+    <text class="user-motto">{{motto}}</text>
+</view>
